@@ -1,0 +1,17 @@
+Sistema de suporte onde o usuário abre um chamado, e só pode continuar a coversa após
+o administrador ter respondido sua ultima pergunta.
+Para testes abra 2 navegadores diferentes, para criar 2 sessions,
+ex: Chrome e Internet Edge.
+No primeiro navegador faça login como Admin e no segundo Como Usuario normal para iniciar 
+os testes.
+
+Login:admin   Normal:marlon
+senha:admin   senha:123
+Ou criar manulmente na tabela sql.
+--------------------------------------------------------------------------------------
+Caso nescessário altere o valor de
+define('INCLUDE_PATH', 'http://localhost/support_system/');
+Onde http://localhost/support_system/ é o lugar onde se encontra a pasta do projeto.
+
+define('DATABASE', 'support_system');
+nome do DB support_system, alterar caso nescessario.

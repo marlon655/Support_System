@@ -1,0 +1,167 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body,html{
+	height: 100%;
+}
+.clear{
+	clear: both;
+}
+.center{
+	text-align: center;
+	max-width: 1280px;
+	margin: 0 auto;
+}
+.center a{
+	margin: 0 20px;
+	font-size: 20px;
+	text-decoration: none;
+	color: black;
+	float: right;
+}
+/*Login*/
+.boxlogin{
+	border: 2px solid #FFA500;
+	position: relative;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 500px;
+	height: 250px;
+	padding: 10px 20px;
+	background-color: #5A3FD1;
+}
+.boxlogin h2{
+	text-align: center;
+	color: white;
+	font-weight: lighter;
+	font-weight: 20px;
+}
+.boxlogin input[type=text],
+.boxlogin input[type=password]{
+	width: 100%;
+	height: 40px;
+	font-size: 20px;
+	font-weight: 20px;
+	margin: 5px 0;
+	padding-left: 10px;
+}
+.boxlogin input[type=submit]{
+	margin: 5px 0;
+	background-color: #FFA500;
+	border: none;
+	color: white;
+	cursor: pointer;
+	width: 100px;
+	height: 30px;
+	font-size: 20px;
+	font-weight: normal;
+}
+/*--------------VIEW MESSAGES--------------*/
+.box{
+	display: inline-block;
+	max-width: 600px;
+	width: 100%;
+	padding: 5px;
+	border: 2px solid #006c78;
+}
+.box > h2{
+	background-color: rgba(0, 135, 150, 0.5);
+	padding: 5px;
+}
+.box h2{	
+	font-size: 20px;
+	font-style: normal;
+	color: black;
+}
+.roll{
+	overflow-y: auto;
+	overflow-x: hidden;
+	height: 400px;
+}
+.box-wraper{
+	margin: 5px 0;
+	text-align: left;
+	width: 100%;
+	padding: 5px;
+	border: 1px solid #006c78;
+}
+.box-wraper h2{
+	font-size: 20px;
+	font-weight: lighter;
+	color: #006c78;
+}
+.box-wraper span{
+	font-size: 18px;
+	font-weight: lighter;
+	color: black;
+}
+/*------------------------INPUTS--------------------------*/
+.answer{
+	width: 100%;
+	height: 125px;
+	padding: 5px;
+	background-color: #ccc;
+}
+.answer textarea{
+	resize: none;
+	width: 100%;
+	height: 80px;
+	font-size: 18px;
+	font-weight: lighter;
+	color: #006c78;
+}
+.answer input[type='submit']{
+	font-weight: normal;
+	font-size: 20px;
+	color: #006c78;
+	width: 100px;
+	height: 30px;
+}
+/* ---- Chamados ---- */
+.chamados{
+	width: 200px;
+	border: 1px solid #ccc;
+	padding: 5px;
+	float: left;
+}
+.chamados h2{
+	font-size: 20px;
+	color: black;
+}
+.chamados-wraper{
+	width: 100%;
+	height: 200px;
+	border: 1px solid #ccc;
+	padding: 5px;
+	float: left;
+	overflow-y: auto;
+}
+.chamados-wraper ul{
+	list-style-type: none;
+	float: left;
+}
+.chamados-wraper ul li{
+	padding: 5px 0;
+	text-align: left;
+}
+.chamados-wraper ul li a{
+	border-bottom: 1px solid #ccc;
+	float: left;
+	text-align: left;
+	text-decoration: none;
+	font-size: 20px;
+	color: black;
+	font-weight: lighter;
+}
+@media screen and (max-width: 800px){
+	.chamados{
+		width: 100%;
+		/*height: 100px;*/
+	}
+	.chamados-wraper{
+		height: 100px;
+	}
+}
