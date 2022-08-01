@@ -1,3 +1,4 @@
+Este projeto foi desenvolvido na plataforma Windows, utilizando Servidor Xampp, PHP 8.0+.
 Sistema de suporte onde o usuário abre um chamado, e só pode continuar a coversa após
 o administrador ter respondido sua ultima pergunta.
 Para testes abra 2 navegadores diferentes, para criar 2 sessions,
