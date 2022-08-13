@@ -2,7 +2,7 @@
 
 ## Sobre
 Este projeto foi desenvolvido na plataforma Windows, utilizando Servidor Xampp, PHP 8.0+ e Sql.
-Sistema de suporte onde o usuário abre um chamado, e só pode continuar a coversa após
+Sistema de suporte onde o usuário abre um chamado, e só pode continuar a conversa após
 o administrador ter respondido sua ultima pergunta.
 
 ## Como funciona
