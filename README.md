@@ -25,3 +25,10 @@ define('INCLUDE_PATH', 'http://localhost/support_system/');
 ```PHP
 define('DATABASE', 'support_system');
 ```
+## Front-end
+- HTML
+- CSS
+## Back-end
+-PHP
+## FrameWorks
+- Nenhum
